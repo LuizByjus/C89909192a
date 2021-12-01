@@ -35,9 +35,9 @@ function send() {
     remove_charAt3 = remove_charAt2.replace(charAt3, "_");
 	console.log(remove_charAt3);
 
-    question_word = "<h4 id='word_display'> Q. "+remove_charAt3+"</h4>";
+    question_word = "<h4 id='word_display'> P. "+remove_charAt3+"</h4>";
     input_box = "<br>Resposta : <input type='text' id='input_check_box'>";
-    check_button = "<br><br><button class='btn btn-info' onclick='check()'>Check</button>";
+    check_button = "<br><br><button class='btn btn-info' onclick='check()'>Checar</button>";
     row =  question_word + input_box + check_button ; 
     document.getElementById("output").innerHTML = row;
 document.getElementById("word").value = "";
