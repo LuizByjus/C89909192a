@@ -69,23 +69,23 @@ function check()
 	if(question_turn == "player1")
 	{
 		question_turn = "player2"
-		document.getElementById("player_question").innerHTML = "Turno de Pergunta - " + player2_name ;
+		document.getElementById("player_question").innerHTML = "Turno de Pergunta: " + player2_name ;
 	}
 	else 
 	{
 		question_turn = "player1"
-		document.getElementById("player_question").innerHTML = "Turno de Resposta - " + player1_name ;
+		document.getElementById("player_question").innerHTML = "Turno de Resposta: " + player1_name ;
 	}
 
 	if(answer_turn == "player1")
 	{
 		answer_turn = "player2"
-		document.getElementById("player_answer").innerHTML = "Turno de Pergunta - " + player2_name ;
+		document.getElementById("player_answer").innerHTML = "Turno de Pergunta: " + player2_name ;
 	}
 	else 
 	{
 		answer_turn = "player1"
-		document.getElementById("player_answer").innerHTML = "Turno de Resposta - " + player1_name ;
+		document.getElementById("player_answer").innerHTML = "Turno de Resposta: " + player1_name ;
 	}
 
     document.getElementById("output").innerHTML = "";
